@@ -1,0 +1,31 @@
+/* display property
+display:inline/block/inline/none
+.inline take onaly the space requred by the element. ( no margin/ padding)
+.block: take full space available in width . 
+inline block */
+/* div{
+   background-color: blueviolet;
+   display: inline;} */
+   div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+
+   }
+
+button{
+    display: block;
+    
+}
+#d1{
+    background-color:rgba(255, 00, 00, 0.5);
+}
+#d2{
+    background-color: greenyellow;
+    
+}
+#d3{
+    background-color: red;
+}

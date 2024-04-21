@@ -1,0 +1,53 @@
+*{
+    
+}
+h1{
+    color: blue;
+    text-align: start;
+    text-decoration: dotted;
+}
+p{
+    color: rgb(223, 7, 7);
+    
+}
+button{
+    color: brown;
+    border-radius: 30%;
+    background-color: rgb(254, 254, 254);
+    
+}
+body{
+    background-color:
+
+}
+#heading3{
+  color: #000;
+  text-decoration:underline;
+}
+#heading1{
+    color: chartreuse;
+    text-decoration: dotted;
+}
+#heading2{
+    color: magenta;
+}
+.myh1{
+    color: rgb(83, 244, 3);
+}
+#box{
+    color:aqua;
+    background-color: burlywood;
+    
+}
+p{
+    text-align: end;
+    text-decoration: solid;
+}
+h2{
+    text-align: center;
+    text-decoration: blue dotted;
+
+}
+a{
+    text-decoration: none;
+}

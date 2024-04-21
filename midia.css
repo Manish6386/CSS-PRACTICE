@@ -1,0 +1,71 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: pink;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transition-property: all;
+    transition-duration:2s ;
+    animation-timing-function: ease-in;
+    transition-delay:1s ; */
+    /* transition: all 2s ease-in 1s;
+    rotate: X 180deg;
+    transition: all 2s ease-in;
+     */
+     animation-name: colorAnimate;
+     animation-duration: 2s;
+     /* animation-timing-function: ease-in; */
+     animation-delay: 0s;
+     animation-iteration-count: infinite;
+ 
+     
+    
+}
+div:hover{
+    /* background-color: red;
+    color:white;
+    font-size: 20px;
+    transform: scalex(2);
+    transform: rotate(90deg);
+    transform: translate(200px);
+    transform: skew(80deg);*/
+   
+} 
+@keyframes colorAnimate{
+0%
+     { left: 0px;
+        background-color:pink ;
+    }
+    50%{
+        background-color: blue;
+    }
+     
+to 
+    {background-color: orangered;}
+}
+div:active {
+    background-color: aqua;
+}
+@media (width :600px){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width:600px){
+    div{
+        background-color: green;
+    }
+}
+@media(max-width:600px){
+    div{
+        background-color: rgb(247, 4, 8);
+    }
+}
+@media(min-width 200px) and (max-width 300px){
+    div{
+        background-color: blue;
+    }
+}
